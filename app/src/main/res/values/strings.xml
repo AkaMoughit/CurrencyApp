@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CurrencyApp</string>
+    <string name="currency_app">Currency App</string>
+    <string name="montant">Montant</string>
+</resources>
