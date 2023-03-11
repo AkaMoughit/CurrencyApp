@@ -43,15 +43,15 @@ public class MainActivity extends AppCompatActivity {
                     switch(s2.getSelectedItem().toString()) {
                         case "EURO":
                             total = montant * 0.09;
-                            Toast.makeText(getApplicationContext(),total.toString(),Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),total.toString()+" euro",Toast.LENGTH_LONG).show();
                             break;
                         case "USD":
                             total = montant * 0.014;
-                            Toast.makeText(getApplicationContext(),total.toString(),Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),total.toString() + "$",Toast.LENGTH_LONG).show();
                             break;
                         case "YEN":
                             total = montant * 12.9;
-                            Toast.makeText(getApplicationContext(),total.toString(),Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),total.toString() + "yen",Toast.LENGTH_LONG).show();
                             break;
                         default:
                             Toast.makeText(getApplicationContext(),"You cant convert from MAD to MAD",Toast.LENGTH_LONG).show();
@@ -60,15 +60,15 @@ public class MainActivity extends AppCompatActivity {
                     switch(s2.getSelectedItem().toString()) {
                         case "MAD":
                             total = montant * 11.09;
-                            Toast.makeText(getApplicationContext(),total.toString(),Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),total.toString() + "dh",Toast.LENGTH_LONG).show();
                             break;
                         case "USD":
                             total = montant * 1.06;
-                            Toast.makeText(getApplicationContext(),total.toString(),Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),total.toString() + "$",Toast.LENGTH_LONG).show();
                             break;
                         case "YEN":
                             total = montant * 143.7;
-                            Toast.makeText(getApplicationContext(),total.toString(),Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),total.toString() + "yen",Toast.LENGTH_LONG).show();
                             break;
                         default:
                             Toast.makeText(getApplicationContext(),"You cant convert from EURO to EURO",Toast.LENGTH_LONG).show();
@@ -78,15 +78,15 @@ public class MainActivity extends AppCompatActivity {
                     switch(s2.getSelectedItem().toString()) {
                         case "MAD":
                             total = montant * 10.4;
-                            Toast.makeText(getApplicationContext(),total.toString(),Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),total.toString() + "dh",Toast.LENGTH_LONG).show();
                             break;
                         case "EURO":
                             total = montant * 0.93;
-                            Toast.makeText(getApplicationContext(),total.toString(),Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),total.toString() + "euro",Toast.LENGTH_LONG).show();
                             break;
                         case "YEN":
                             total = montant * 134.7;
-                            Toast.makeText(getApplicationContext(),total.toString(),Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),total.toString() + "yen",Toast.LENGTH_LONG).show();
                             break;
                         default:
                             Toast.makeText(getApplicationContext(),"You cant convert from USD to USD",Toast.LENGTH_LONG).show();
@@ -96,15 +96,15 @@ public class MainActivity extends AppCompatActivity {
                     switch(s2.getSelectedItem().toString()) {
                         case "MAD":
                             total = montant * 0.077;
-                            Toast.makeText(getApplicationContext(),total.toString(),Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),total.toString() + "dh",Toast.LENGTH_LONG).show();
                             break;
                         case "EURO":
                             total = montant * 0.0069;
-                            Toast.makeText(getApplicationContext(),total.toString(),Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),total.toString() + "euro",Toast.LENGTH_LONG).show();
                             break;
                         case "USD":
                             total = montant * 0.007;
-                            Toast.makeText(getApplicationContext(),total.toString(),Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),total.toString() + "$",Toast.LENGTH_LONG).show();
                             break;
                         default:
                             Toast.makeText(getApplicationContext(),"You cant convert from USD to USD",Toast.LENGTH_LONG).show();
